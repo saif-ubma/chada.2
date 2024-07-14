@@ -40,10 +40,10 @@
         <script src="js/tailDT.js"></script>
 <script src="js/nouislider.min.js"></script>
 <script src="js/wNumb.js"></script>
-        <script src="data/_2.js"></script>
-        <script src="data/_3.js"></script>
-        <script src="data/_4.js"></script>
-        <script src="data/_5.js"></script>
+        <script src="data/W_ElTarf_2.js"></script>
+        <script src="data/communes_ElTarf_3.js"></script>
+        <script src="data/mosqueecsurfacique_4.js"></script>
+        <script src="data/mosqueecponctuelle_5.js"></script>
         <script>
         var highlightLayer;
         function highlightFeature(e) {
@@ -108,7 +108,7 @@
         });
         layer_GoogleSatellite_1;
         map.addLayer(layer_GoogleSatellite_1);
-        function pop__2(feature, layer) {
+        function pop_W_ElTarf_2(feature, layer) {
             layer.on({
                 mouseout: function(e) {
                     for (i in e.target._eventParents) {
@@ -119,9 +119,9 @@
             });
         }
 
-        function style__2_0() {
+        function style_W_ElTarf_2_0() {
             return {
-                pane: 'pane__2',
+                pane: 'pane_W_ElTarf_2',
                 opacity: 1,
                 color: 'rgba(143,137,137,0.5568627450980392)',
                 dashArray: '',
@@ -134,9 +134,9 @@
                 interactive: true,
             }
         }
-        function style__2_1() {
+        function style_W_ElTarf_2_1() {
             return {
-                pane: 'pane__2',
+                pane: 'pane_W_ElTarf_2',
                 opacity: 1,
                 color: 'rgba(243,7,82,1.0)',
                 dashArray: '',
@@ -149,21 +149,21 @@
                 interactive: true,
             }
         }
-        map.createPane('pane__2');
-        map.getPane('pane__2').style.zIndex = 402;
-        map.getPane('pane__2').style['mix-blend-mode'] = 'normal';
-        var layer__2 = new L.geoJson.multiStyle(json__2, {
+        map.createPane('pane_W_ElTarf_2');
+        map.getPane('pane_W_ElTarf_2').style.zIndex = 402;
+        map.getPane('pane_W_ElTarf_2').style['mix-blend-mode'] = 'normal';
+        var layer_W_ElTarf_2 = new L.geoJson.multiStyle(json_W_ElTarf_2, {
             attribution: '',
             interactive: true,
-            dataVar: 'json__2',
-            layerName: 'layer__2',
-            pane: 'pane__2',
-            onEachFeature: pop__2,
-            styles: [style__2_0,style__2_1,]
+            dataVar: 'json_W_ElTarf_2',
+            layerName: 'layer_W_ElTarf_2',
+            pane: 'pane_W_ElTarf_2',
+            onEachFeature: pop_W_ElTarf_2,
+            styles: [style_W_ElTarf_2_0,style_W_ElTarf_2_1,]
         });
-        bounds_group.addLayer(layer__2);
-        map.addLayer(layer__2);
-        function pop__3(feature, layer) {
+        bounds_group.addLayer(layer_W_ElTarf_2);
+        map.addLayer(layer_W_ElTarf_2);
+        function pop_communes_ElTarf_3(feature, layer) {
             layer.on({
                 mouseout: function(e) {
                     for (i in e.target._eventParents) {
@@ -207,9 +207,9 @@
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
-        function style__3_0() {
+        function style_communes_ElTarf_3_0() {
             return {
-                pane: 'pane__3',
+                pane: 'pane_communes_ElTarf_3',
                 opacity: 1,
                 color: 'rgba(244,244,244,1.0)',
                 dashArray: '',
@@ -222,9 +222,9 @@
                 interactive: true,
             }
         }
-        function style__3_1() {
+        function style_communes_ElTarf_3_1() {
             return {
-                pane: 'pane__3',
+                pane: 'pane_communes_ElTarf_3',
                 opacity: 1,
                 color: 'rgba(35,35,35,1.0)',
                 dashArray: '1,5',
@@ -237,21 +237,21 @@
                 interactive: true,
             }
         }
-        map.createPane('pane__3');
-        map.getPane('pane__3').style.zIndex = 403;
-        map.getPane('pane__3').style['mix-blend-mode'] = 'normal';
-        var layer__3 = new L.geoJson.multiStyle(json__3, {
+        map.createPane('pane_communes_ElTarf_3');
+        map.getPane('pane_communes_ElTarf_3').style.zIndex = 403;
+        map.getPane('pane_communes_ElTarf_3').style['mix-blend-mode'] = 'normal';
+        var layer_communes_ElTarf_3 = new L.geoJson.multiStyle(json_communes_ElTarf_3, {
             attribution: '',
             interactive: true,
-            dataVar: 'json__3',
-            layerName: 'layer__3',
-            pane: 'pane__3',
-            onEachFeature: pop__3,
-            styles: [style__3_0,style__3_1,]
+            dataVar: 'json_communes_ElTarf_3',
+            layerName: 'layer_communes_ElTarf_3',
+            pane: 'pane_communes_ElTarf_3',
+            onEachFeature: pop_communes_ElTarf_3,
+            styles: [style_communes_ElTarf_3_0,style_communes_ElTarf_3_1,]
         });
-        bounds_group.addLayer(layer__3);
-        map.addLayer(layer__3);
-        function pop__4(feature, layer) {
+        bounds_group.addLayer(layer_communes_ElTarf_3);
+        map.addLayer(layer_communes_ElTarf_3);
+        function pop_mosqueecsurfacique_4(feature, layer) {
             layer.on({
                 mouseout: function(e) {
                     for (i in e.target._eventParents) {
@@ -271,9 +271,9 @@
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
-        function style__4_0() {
+        function style_mosqueecsurfacique_4_0() {
             return {
-                pane: 'pane__4',
+                pane: 'pane_mosqueecsurfacique_4',
                 opacity: 1,
                 color: 'rgba(35,35,35,1.0)',
                 dashArray: '',
@@ -286,21 +286,21 @@
                 interactive: true,
             }
         }
-        map.createPane('pane__4');
-        map.getPane('pane__4').style.zIndex = 404;
-        map.getPane('pane__4').style['mix-blend-mode'] = 'normal';
-        var layer__4 = new L.geoJson(json__4, {
+        map.createPane('pane_mosqueecsurfacique_4');
+        map.getPane('pane_mosqueecsurfacique_4').style.zIndex = 404;
+        map.getPane('pane_mosqueecsurfacique_4').style['mix-blend-mode'] = 'normal';
+        var layer_mosqueecsurfacique_4 = new L.geoJson(json_mosqueecsurfacique_4, {
             attribution: '',
             interactive: true,
-            dataVar: 'json__4',
-            layerName: 'layer__4',
-            pane: 'pane__4',
-            onEachFeature: pop__4,
-            style: style__4_0,
+            dataVar: 'json_mosqueecsurfacique_4',
+            layerName: 'layer_mosqueecsurfacique_4',
+            pane: 'pane_mosqueecsurfacique_4',
+            onEachFeature: pop_mosqueecsurfacique_4,
+            style: style_mosqueecsurfacique_4_0,
         });
-        bounds_group.addLayer(layer__4);
-        map.addLayer(layer__4);
-        function pop__5(feature, layer) {
+        bounds_group.addLayer(layer_mosqueecsurfacique_4);
+        map.addLayer(layer_mosqueecsurfacique_4);
+        function pop_mosqueecponctuelle_5(feature, layer) {
             layer.on({
                 mouseout: function(e) {
                     for (i in e.target._eventParents) {
@@ -326,9 +326,9 @@
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
-        function style__5_0() {
+        function style_mosqueecponctuelle_5_0() {
             return {
-                pane: 'pane__5',
+                pane: 'pane_mosqueecponctuelle_5',
                 radius: 4.0,
                 opacity: 1,
                 color: 'rgba(35,35,35,1.0)',
@@ -342,26 +342,26 @@
                 interactive: true,
             }
         }
-        map.createPane('pane__5');
-        map.getPane('pane__5').style.zIndex = 405;
-        map.getPane('pane__5').style['mix-blend-mode'] = 'normal';
-        var layer__5 = new L.geoJson(json__5, {
+        map.createPane('pane_mosqueecponctuelle_5');
+        map.getPane('pane_mosqueecponctuelle_5').style.zIndex = 405;
+        map.getPane('pane_mosqueecponctuelle_5').style['mix-blend-mode'] = 'normal';
+        var layer_mosqueecponctuelle_5 = new L.geoJson(json_mosqueecponctuelle_5, {
             attribution: '',
             interactive: true,
-            dataVar: 'json__5',
-            layerName: 'layer__5',
-            pane: 'pane__5',
-            onEachFeature: pop__5,
+            dataVar: 'json_mosqueecponctuelle_5',
+            layerName: 'layer_mosqueecponctuelle_5',
+            pane: 'pane_mosqueecponctuelle_5',
+            onEachFeature: pop_mosqueecponctuelle_5,
             pointToLayer: function (feature, latlng) {
                 var context = {
                     feature: feature,
                     variables: {}
                 };
-                return L.circleMarker(latlng, style__5_0(feature));
+                return L.circleMarker(latlng, style_mosqueecponctuelle_5_0(feature));
             },
         });
-        bounds_group.addLayer(layer__5);
-        map.addLayer(layer__5);
+        bounds_group.addLayer(layer_mosqueecponctuelle_5);
+        map.addLayer(layer_mosqueecponctuelle_5);
             var title = new L.Control();
             title.onAdd = function (map) {
                 this._div = L.DomUtil.create('div', 'info');
@@ -398,15 +398,15 @@
         document.getElementsByClassName('leaflet-control-geocoder-icon')[0]
         .title += 'Search for a place';
         var baseMaps = {};
-        L.control.layers(baseMaps,{'<img src="legend/_5.png" /> مساجد الولاية (الطبقة النقطية)': layer__5,'<img src="legend/_4.png" /> مساجد الولاية (الطبقة المساحية)': layer__4,'<img src="legend/_3.png" /> بلديات ولاية الطارف': layer__3,'<img src="legend/_2.png" /> حدود ولاية الطارف': layer__2,"Google Satellite": layer_GoogleSatellite_1,"OSM Standard": layer_OSMStandard_0,}).addTo(map);
+        L.control.layers(baseMaps,{'<img src="legend/mosqueecponctuelle_5.png" /> mosquee (c.ponctuelle)': layer_mosqueecponctuelle_5,'<img src="legend/mosqueecsurfacique_4.png" /> mosquee (c.surfacique)': layer_mosqueecsurfacique_4,'<img src="legend/communes_ElTarf_3.png" /> communes_El Tarf': layer_communes_ElTarf_3,'<img src="legend/W_ElTarf_2.png" /> W_El Tarf': layer_W_ElTarf_2,"Google Satellite": layer_GoogleSatellite_1,"OSM Standard": layer_OSMStandard_0,}).addTo(map);
         setBounds();
         var i = 0;
-        layer__3.eachLayer(function(layer) {
+        layer_communes_ElTarf_3.eachLayer(function(layer) {
             var context = {
                 feature: layer.feature,
                 variables: {}
             };
-            layer.bindTooltip((layer.feature.properties['Commune Ar'] !== null?String('<div style="color: #000000; font-size: 10pt; font-family: \'MS Shell Dlg 2\', sans-serif;">' + layer.feature.properties['Commune Ar']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css__3'});
+            layer.bindTooltip((layer.feature.properties['Commune Ar'] !== null?String('<div style="color: #000000; font-size: 10pt; font-family: \'MS Shell Dlg 2\', sans-serif;">' + layer.feature.properties['Commune Ar']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_communes_ElTarf_3'});
             labels.push(layer);
             totalMarkers += 1;
               layer.added = true;
@@ -520,12 +520,12 @@
           this[lyr["options"]["layerName"]].clearLayers();
           this[lyr["options"]["layerName"]].addData(features);
         var i = 0;
-        layer__3.eachLayer(function(layer) {
+        layer_communes_ElTarf_3.eachLayer(function(layer) {
             var context = {
                 feature: layer.feature,
                 variables: {}
             };
-            layer.bindTooltip((layer.feature.properties['Commune Ar'] !== null?String('<div style="color: #000000; font-size: 10pt; font-family: \'MS Shell Dlg 2\', sans-serif;">' + layer.feature.properties['Commune Ar']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css__3'});
+            layer.bindTooltip((layer.feature.properties['Commune Ar'] !== null?String('<div style="color: #000000; font-size: 10pt; font-family: \'MS Shell Dlg 2\', sans-serif;">' + layer.feature.properties['Commune Ar']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_communes_ElTarf_3'});
             labels.push(layer);
             totalMarkers += 1;
               layer.added = true;
@@ -669,15 +669,15 @@
                 filterFunc();
             };
             div_name.appendChild(reset_name);
-        resetLabels([layer__3]);
+        resetLabels([layer_communes_ElTarf_3]);
         map.on("zoomend", function(){
-            resetLabels([layer__3]);
+            resetLabels([layer_communes_ElTarf_3]);
         });
         map.on("layeradd", function(){
-            resetLabels([layer__3]);
+            resetLabels([layer_communes_ElTarf_3]);
         });
         map.on("layerremove", function(){
-            resetLabels([layer__3]);
+            resetLabels([layer_communes_ElTarf_3]);
         });
         </script>
     </body>
